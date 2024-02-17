@@ -1,0 +1,7 @@
+version: pipelines/v0.1
+name: MySQL/MariaDB
+timeout: 0
+data_components:
+- tap-mysql
+- Warehouse
+- dbt
